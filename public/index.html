@@ -1,87 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Game</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
 
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game</title>
+  <link rel="stylesheet" href="/screen.css">
+</head>
 
-      <section class="container">
-          <section class="headerWrap">
-            <section id="header">
-              <section>
-                <h1>Player 1 Name</h1>
-              </section>
-              <section class="firstPlayerName">
-                <label for="playerName">Update Player 1 Name </label>
-                <input type="Search" class="myUpdate" name="playerName">
-                <button>Update</button>
-              </section>
-            </section class="rockPaperScissorButtons">
-            <h1>Rock, Paper, Scissors</h1>
-            <button onClick='choose("rock")'>Rock</button>
-            <button onClick='choose("paper")'>Paper</button>
-            <button onClick='choose("scissors")'>Scissors</button>
-            <br>
-            <button onClick='compare(user, computerChoice)'>Go!</button>
-            <p id="result"></p>
-          </section>
-        </section>
-        </section>
-      
-        <section class="wrap">
-          <section id="center1">
-            <section>
-              <h1>Player 2 Name</h1>
-            </section>
-            <section class="secondPlayerName">
-              <label for="playerName">Update Player 2 Name </label>
-              <input type="Search" class="myUpdate" name="playerName">
-              <button>Update</button>
-            </section>
-          </section class="rockPaperScissorButtons">
-          <h1>Rock, Paper, Scissors</h1>
-          <button onClick='choose("rock")'>Rock</button>
-          <button onClick='choose("paper")'>Paper</button>
-          <button onClick='choose("scissors")'>Scissors</button>
-          <br>
-          <button onClick='compare(user, computerChoice)'>Go!</button>
-          <p id="result"></p>
-        </section>
-        </section>
-      
-        <section id="center2">
-            <section>
-                <h1>Player 3 Name</h1>
-              </section>
-              <section class="thirdPlayerName">
-                <label for="playerName">Update Player 3 Name </label>
-                <input type="Search" class="myUpdate" name="playerName">
-                <button>Update</button>
-              </section>
-            </section class="rockPaperScissorButtons">
-            <h1>Rock, Paper, Scissors</h1>
-            <button onClick='choose("rock")'>Rock</button>
-            <button onClick='choose("paper")'>Paper</button>
-            <button onClick='choose("scissors")'>Scissors</button>
-            <br>
-            <button onClick='compare(user, computerChoice)'>Go!</button>
-            <p id="result"></p>
-            </section>
-            </section>
-          
-            </section>
-          
-          
-      
+<body>
+  <header>
+    <h1>Rock, Paper, Scissors</h1>
+  </header>
+
+  <section class="container">
+    <section class="playerOne">
+      <section>
+        <h1>Player 1 Name</h1>
+      </section>
+      <section class="firstPlayerName">
+        <label for="playerName">Update Player 1 Name </label>
+        <input type="text" class="myUpdate" name="playerName">
+        <button>Update</button>
+      </section>
+      <section class="rockPaperScissorButtons">
+        <button class="rock">Rock</button>
+        <button class="paper">Paper</button>
+        <button class="scissors">Scissors</button>
+
+      </section>
+    </section>
 
 
     
+      <section id="center1">
+        <section>
+          <h1>Player 2 Name</h1>
+        </section>
+        <section class="secondPlayerName">
+          <label for="playerName">Update Player 2 Name </label>
+          <input type="text" class="myUpdate" name="playerName">
+          <button>Update</button>
+        </section>
+      </section class="rockPaperScissorButtons">
+      <button class="rock">Rock</button>
+      <button class="paper">Paper</button>
+      <button class="scissors">Scissors</button>
+
+    </section>
+  </section>
 
 
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+
+
+
+
+
+
+
+
+  <script src="/main.js" charset="utf-8"></script>
+</body>
+
 </html>
