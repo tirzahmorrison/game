@@ -26,7 +26,11 @@ const playerChoice = (index, choice) => {
 
 //As a user, after each player makes their selection, I should be told who won and the game should be over
 
-const choseWinner 
+const choseWinner = () => {
+  const player1 = game.players[0].choice,
+        player2 = game.players[1].choice
+
+}
 
 
 
