@@ -12,3 +12,5 @@ const game = {
     }
   ]
 }
+
+const gameStart=()=>
