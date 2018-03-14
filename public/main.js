@@ -62,6 +62,9 @@ const choseWinner = () => {
     default: 
       alert("ohNoYouDidNotSon!")
   }
+  game.winner = winner
+  document.querySelector("#winner").innerText = game.winner 
+
 }
 
 
